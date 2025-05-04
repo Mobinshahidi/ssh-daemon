@@ -1,0 +1,13 @@
+[Unit]
+Description=re-connect to a server using ssh
+After=network.target
+StartLimitIntervalSec=0
+
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+ExecStart=/opt/autossh/main.sh
+
+[Install]
+WantedBy=multi-user.target
