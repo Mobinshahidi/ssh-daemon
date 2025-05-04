@@ -19,7 +19,7 @@ export $SSHUSER='ubuntu'
 export $SSHSERVER='s1.example.com'
 ```
 
-2. edit `main.sh` and put your ssh User ans server address there.
+2. edit `main.sh` and put your ssh User and server address there.
 
 3. run the `init.sh` script.
 
