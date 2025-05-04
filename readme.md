@@ -24,3 +24,7 @@ export $SSHSERVER='s1.example.com'
 3. run the `init.sh` script.
 
 4. Done! `systemctl status autossh.service`
+
+**Now you can use _9999_ port on your system**
+
+
